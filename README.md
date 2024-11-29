@@ -83,6 +83,7 @@ Steps to Run Migrations Locally
   1. Using Package Manager Console or PowerShell- 
       i. Open Package Manager Console or Developer PowerShell in your IDE.
       ii. Navigate to the LibraryManagement.DL project.
+     
 bash
 
 ```bash
@@ -90,6 +91,7 @@ cd LibaryMangement.DL
 ```
 
       iii. Run the following command to apply the latest migration and see detailed output:
+      
 bash
 
 ```bash
@@ -101,11 +103,13 @@ update-database -verbose
     2. Navigate to the root directory of your project.
 
       Run the following command:
+     
 bash
 
 ```bash
 dotnet ef database update
 ```
+
 This will apply all pending migrations and update your database schema to match the latest model changes.
 
 Usage
