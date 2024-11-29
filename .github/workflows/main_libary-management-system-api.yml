@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '8.0.x'
 
       - name: Restore NuGet Packages
-        run: dotnet restore ./RPG.sln
+        run: dotnet restore ./LibraryManagement.sln
 
       - name: Build Solution
-        run: dotnet build ./RPG.sln --configuration Release --no-restore
+        run: dotnet build ./LibraryManagement.sln --configuration Release --no-restore
